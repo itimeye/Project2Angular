@@ -7,6 +7,10 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { MiniRegisterComponent } from './mini-register/mini-register.component';
+import { BusinessesComponent } from './businesses/businesses.component';
+import { BContainerComponent } from './b-container/b-container.component';
+import { BHeaderComponent } from './b-header/b-header.component';
+import { BNavComponent } from './b-nav/b-nav.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { MiniRegisterComponent } from './mini-register/mini-register.component';
     MainMenuComponent,
     LoginComponent,
     RegisterComponent,
-    MiniRegisterComponent
+    MiniRegisterComponent,
+    BusinessesComponent,
+    BContainerComponent,
+    BHeaderComponent,
+    BNavComponent
   ],
   imports: [
     BrowserModule,
